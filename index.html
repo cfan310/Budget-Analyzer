@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-links">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+    <div class="title-header">
+        <h1>Budget Analyzer App</h1>
+    </div>
+
+
+
+    <div class="container">
+        <div class="expenses">
+            Expenses are logged and shown here
+        </div>
+        <div class="budget">Total Budget, Expenses, and Variance is shown here</div>
+    </div>
+
+    <div class="expense-logger">
+        log expenses here
+        <form>
+            <label for="fname">Expense:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fname">Amount:</label><br>
+            <input type="text" id="fname" name="fname"><br> 
+          </form>
+        <button>Enter</button>
+        <!--upon submission, the expense gets logged to the left box, and the
+        amount gets calculated in the right box and added to th expenditure total-->
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
